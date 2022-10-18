@@ -30,5 +30,20 @@ isActive || hideUser();
 // toggle boolean
 isActive = !isActive;
 
+//convertion of number into string
+let num = 5;
+//by adding an empty string with any number it will convert to string
+num = num + '';
+// console.log(typeof num);
+
+//conversion of string into number
+const input = '560';
+//by adding a plus before any string
+const inputNum = +input;
+console.log(typeof inputNum);
+
+
+
+
 
 
